@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+    text-decoration: none;
+}
+
+#template main {
+    padding: 10px;
+    marging-left: 200px;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+a.active {
+    color: red;
+    text-decoration: none;
+}
