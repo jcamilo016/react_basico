@@ -8,7 +8,7 @@ const Template = (props) => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink activeClassName="active" to="/home" isActive={(match,location) => {
+                        <NavLink activeClassName="active" to="/home" isActive={(match, location) => {
                             console.log(match);
                             console.log(location);
                             return location.pathname === '/home';
@@ -23,7 +23,9 @@ const Template = (props) => {
                 </ul>
             </nav>
             <main>
-                {props.children}
+                {
+                    props.children
+                }
             </main>
         </div>
     );
